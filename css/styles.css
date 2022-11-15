@@ -642,6 +642,11 @@ margin-right:50px;
     flex-direction:column
 }
   
+.close-btn-svg{
+    width:11px;
+    height:11px;
+    margin-bottom:1.2px;
+}
 .close-btn{
     border-radius: 50%;
     width:18px;
@@ -649,12 +654,10 @@ margin-right:50px;
     margin-left:90%;
     cursor: pointer;
     padding:0px;
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0);
 }
-.close-btn-svg{
-    width:11px;
-    height:11px;
-    margin-bottom:1.2px;
-}
+
 .is-hidden{
     transform: translateX(-100%);
 
