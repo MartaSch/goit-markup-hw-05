@@ -142,9 +142,7 @@
     padding:0 15px;
 }
 .container-header{
-    margin:0 auto;
-    width:1600px;
-    padding:0 15px;
+    display:flex;
 }
 .header-border{
     box-sizing: border-box;
@@ -173,9 +171,6 @@
 .navigation{
     display:flex;
     margin-right:auto;
-}
-.navigation-list{
-display:flex;
 }
 .navigation-item:not(:last-child){
     margin-right:46px;
@@ -477,6 +472,7 @@ margin-right:50px;
     border-radius: 50%;
     padding:12px;
     background-color:var(--ellipse-color);
+    cursor: pointer;
 
 }
 .ellipse-item:not(:last-child){
@@ -549,6 +545,7 @@ margin-right:50px;
     height:92px;
     border: 1px solid rgba(175, 177, 184, 1);
     border-radius: 4px;
+    cursor: pointer;
 }
 .logo-border-item:not(:last-child){
     margin-right:30px;
@@ -610,6 +607,7 @@ margin-right:50px;
     padding:12px;
     margin-top:20px;
     background-color:var(--ellipse-footer);
+    cursor: pointer;
 }
 .ellipse-footer-item:not(:last-child){
     margin-right:10px;
